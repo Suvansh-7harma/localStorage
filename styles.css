@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card styles */
+#info-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Field styles */
+.field {
+  margin-bottom: 10px;
+}
+
+/* Label styles */
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Span styles */
+span {
+  font-size: 18px;
+}
+
+/* Add more custom styles as needed */
